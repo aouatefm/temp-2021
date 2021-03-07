@@ -1,0 +1,15 @@
+.nav {
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+}
+
+.nav:hover {
+    color: black;
+
+}
+
+.nav-item:hover {
+    color: black;
+    transform: scale(1.2);
+}
