@@ -4,8 +4,8 @@ import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import Dropdown from "react-bootstrap/Dropdown";
 import Col from "react-bootstrap/Col";
-import {CartIcon, HeartIcon, ProfileIcon} from "./icons";
-import Logo from "./show-big.png"
+import {CartIcon, HeartIcon, ProfileIcon} from "../assets/icons";
+import Logo from "../assets/show-big.png"
 
 function NavOne() {
     return (

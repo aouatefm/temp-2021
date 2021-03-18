@@ -1,7 +1,7 @@
 import React from 'react';
-import './style.scss'
-import Thumb from "./thumb";
-import {formatPrice} from './services/utils'
+import '../../style.scss'
+import Thumb from "../../thumb";
+import {formatPrice} from '../../services/utils'
 import ReactStars from "react-rating-stars-component";
 const Product = () => {
 
