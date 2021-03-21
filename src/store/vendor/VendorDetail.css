@@ -1,45 +1,61 @@
-.section-left{
-   background-color: #d5dcec;
-    width: 300px;
-    height: 1130px;
-    float: left;
-
-}
-.block-thumbnail{
-    width: 300px;
-    height: 300px;
-    background-color: #cdb51b !important;
-    border-color: #000000;
-    color: #000000;
+.banner-image{
+    width: 250px;
+    height: 250px;
     display: inline;
     font-size: 14px;
+    margin: 0px  0px 0px 0px;
     gap: normal;
     line-height: 22px;
-    text-align: left
 
 }
 
-.section-right{
-    background-color: #fc0082;
-    float: right;
-    width: 1190px;
-    height: 1130px;
-}
-.header{
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
-    gap: normal;
-    line-height: 24px;
-    margin: 0px 0px 10px;
-    text-align: left;
-    text-transform: uppercase;
-}
-.block-container{
+.ps-shopping__header{
+    width: 850px;
+    height: 50px;
+    align-items: center;
+    background-color: #F1F1F1;
     border-color: #000000;
     color: #000000;
+    display: flex;
     font-size: 14px;
     gap: normal;
-    line-height: 22px;
-    text-align: left
+    justify-content: space-between;
+    line-height: 22.001px;
+    margin: 0px 0px 40px;
+    padding: 8px 15px;
+    text-align: left;
+    position: relative;
+    left: -14px;
+    top: 1px;
+    transition: none 0s ease 0s;
+    cursor: move;
+}
+.left-side{
+    width: 300px;
+    height: 771px;
+}
+.right-side{
+    width: 900px;
+    height: 771px;
+}
+.btn-contact{
+    background-color: rgb(252, 184, 0);
+    border-color: rgba(0, 0, 0, 0.85);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.85);
+    display: inline-block;
+    font-family: Work Sans;
+    font-weight: 600;
+    gap: normal;
+    line-height: 20px;
+    padding: 15px 45px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+}
+.val-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

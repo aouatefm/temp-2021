@@ -31,9 +31,9 @@ class ProductDetail extends Component {
                         </div>
                         </div>
                         <div className="product-meta" style={{display :"flex", padding :"15px"}}>
-                            <input type="number" className="form-control mr-1 w-25" defaultValue={1} min={1} w-25/>
-                            <button type="button" className="btn btn-dark">Add To Cart</button>
-                            <button type="button" className="btn btn-warning">Buy Now</button>
+                            <input type="number" className="form-control-product mr-1 w-25 form-control" defaultValue={1} min={1} w-25/>
+                            <button type="button" className="btn btn-dark btn-product">Add To Cart</button>
+                            <button type="button" className="btn btn-warning btn-product">Buy Now</button>
 
                         </div>
                         <div className="">

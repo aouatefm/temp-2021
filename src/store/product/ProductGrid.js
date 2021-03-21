@@ -9,16 +9,14 @@ class ProductGrid extends Component {
         return (
             <Container>
                 <Row>
-                    <Col xs><Product/></Col>
-                    <Col xs><Product/></Col>
-                    <Col xs><Product/></Col>
-                    <Col xs><Product/></Col>
+                    <Col ><Product/></Col>
+                    <Col ><Product/></Col>
+                    <Col ><Product/></Col>
                 </Row>
                 <Row>
-                    <Col xs><Product/></Col>
-                    <Col xs><Product/></Col>
-                    <Col xs><Product/></Col>
-                    <Col xs><Product/></Col>
+                    <Col ><Product/></Col>
+                    <Col ><Product/></Col>
+                    <Col ><Product/></Col>
 
                 </Row>
             </Container>
